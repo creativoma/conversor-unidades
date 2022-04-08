@@ -19,8 +19,8 @@ Este proyecto de Javascript forma parte del Curso "Learn Javascript" de Scrimba.
 
 ## Links
 
-- Repositorio: [Repositorio](https://github.com/creativoma/conversor-unidades)
-- Despliegue: [Despliegue](https://creativoma.github.io/conversor-unidades)
+- Repositorio: [https://github.com/creativoma/conversor-unidades](https://github.com/creativoma/conversor-unidades)
+- Despliegue: [https://creativoma.github.io/conversor-unidades/](https://creativoma.github.io/conversor-unidades)
 
 ## Construido con
 
