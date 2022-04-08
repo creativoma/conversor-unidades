@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Conversor de unidades</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="input">
+        <h3>Conversor de unidades Métrico/Imperial</h3>
+        <h2 id="input-value">0</h2>
+        <input
+          type="number"
+          value=""
+          id="input-num"
+          placeholder="Ingresa el número"
+          required
+        />
+        <input
+          onclick="submitNum()"
+          type="Submit"
+          value="Convertir"
+          id="submit"
+        />
+        <span id="error-msg">El valor ingresado no puede ser 0</span>
+      </div>
+      <div class="output">
+        <p>
+          Dimensión (Metro/pie) <br />
+          <span id="length">0 metros = 0.000 pies | 0 pies = 0.000 metros</span>
+        </p>
+        <p>
+          Volumen (Litro/Galon) <br />
+          <span id="volume"
+            >0 litros = 0.000 galones | 0 galones = 0.000 litros</span
+          >
+        </p>
+        <p>
+          Peso (Kilo/Libra) <br />
+          <span id="mass">0 kilos = 0.000 libras | 0 libra = 0.000 kilos</span>
+        </p>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
